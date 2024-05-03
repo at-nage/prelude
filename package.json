@@ -1,0 +1,28 @@
+{
+  "name": "@arch-nage/prelude",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "keywords": [
+    "std",
+    "standard"
+  ],
+  "author": "Evgeniy Nage Nikulin (https://github.com/at-nage)",
+  "homepage": "https://github.com/arch-nage/prelude",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arch-nage/prelude.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "terser": "^5.27.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  }
+}
