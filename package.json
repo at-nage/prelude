@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "install": "npm install",
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest watch"
